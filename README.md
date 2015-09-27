@@ -6,7 +6,7 @@ Container for running [Plex](https://plex.tv/).
 *Usage:*
 
 * Build: `docker build -t plex .`
-* Run: `docker run -d -net=host plex
+* Run: `docker run -d -net=host plex`
 
 *Extras:*
 
