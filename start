@@ -3,4 +3,4 @@
 # Cleanly kill plex when container is stopped
 trap 'kill $(jobs -p)' EXIT
 
-su -c "/usr/sbin/start_pms" plex
+sudo -u plex -H /usr/sbin/start_pms
